@@ -391,7 +391,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                             SizedBox(width: 10),
                             Expanded(
                               child: Text(
-                                "Artist Management: XYZ Talent Agency\nContact: +91 91234 56789",
+                                "Artist Management: XYZ Talent Agency\nContact: +91 9838509828",
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
