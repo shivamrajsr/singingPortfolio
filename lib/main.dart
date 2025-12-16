@@ -343,7 +343,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                             SizedBox(width: 10),
                             Expanded(
                               child: Text(
-                                "shivam.music.booking@gmail.com", // your email
+                                "shivam703368@gmail.com", // your email
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
