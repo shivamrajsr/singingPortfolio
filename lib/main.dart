@@ -359,7 +359,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                             SizedBox(width: 10),
                             Expanded(
                               child: Text(
-                                "Instagram: @shivraj.music",
+                                "Instagram: @shivamrajsr",
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
