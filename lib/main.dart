@@ -238,26 +238,6 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
               ),
             ),
           ),
-          Positioned(
-            right: 20,
-            top: 10,
-            child: GestureDetector(
-              onTap: () {
-                //showContactDialog(context);
-              },
-              child: Text(
-                "Contact Me",
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width < 500 ? 6 : 15,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1,
-                  fontFamily: 'Sans',
-                  color: Colors.white.withOpacity(0.5),
-                ),
-              ),
-            ),
-          ),
 
           Positioned.fill(
             child: Center(
@@ -329,7 +309,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                             Icon(Icons.phone, color: Colors.white.withOpacity(0.6)),
                             SizedBox(width: 10),
                             Text(
-                              "+91 98765 43210", // your phone number
+                              "+91 9838509828", // your phone number
                               style: TextStyle(fontSize: 16),
                             ),
                           ],
@@ -375,7 +355,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                             SizedBox(width: 10),
                             Expanded(
                               child: Text(
-                                "YouTube: youtube.com/@shivrajmusic",
+                                "YouTube: youtube.com/@shivamrajsrmusic",
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
@@ -401,13 +381,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                         SizedBox(height: 20),
 
                         // Close Button
-                        Align(
-                          alignment: Alignment.centerRight,
-                          child: ElevatedButton(
-                            onPressed: () {},
-                            child: Text("Close"),
-                          ),
-                        ),
+
                       ],
                     ),
                   ),
